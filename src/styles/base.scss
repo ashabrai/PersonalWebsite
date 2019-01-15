@@ -1,0 +1,155 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css?family=Fondamento|Mirza|Staatliches|Titillium+Web|Yatra+One');
+
+
+body {
+
+  color: $color4;
+  background-color: white;
+  //position: relative;
+  height: 100%;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+.main-Container {
+  min-height: 100%;
+  overflow: hidden;
+  display: block;
+  position: relative;
+
+}
+
+footer {
+  width: 100%;
+  height: 20px;
+  font-family: Mirza;
+  background-color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  color: $color2;
+  p {
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: $desktop) {
+    padding: 1%;
+  }
+  @media screen and (min-width: $tablet){
+    padding:2%;
+  }
+  @media screen and (max-width: $mobile){
+    padding: 3%;
+  }
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: $color5;
+  &:hover {
+    color: $color2;
+  }
+}
+
+p {
+  margin-bottom: 2%;
+}
+
+// h1, h2, h3, h4 {
+//   //margin-bottom: 3%;
+// }
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: .75em;
+}
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+header{
+  font-size: 35px;
+  color: $color4;
+  font-family: Staatliches, Times;
+  letter-spacing: 5px;
+}
+@media screen and (max-width: $mobile){
+  header{
+    font-size: 30px;
+    width: 90px;
+  }
+
+}
+.navStyle ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a{
+    text-decoration:none !important;
+  }
+}
+
+.navStyle {
+  display: flex;
+  padding: 2% 0 1% 5%;
+  background: none;
+  position: relative;
+  width: 100%;
+  //box-shadow: 1px 1px #0000003b;
+  li {
+    font-family: Titillium Web;
+    margin-left:50px;
+
+    vertical-align: middle;
+    font-size: 20px;
+    list-style:none;
+  }
+}
+  @media screen and (max-width: $mobile){
+    .navStyle{
+    li{
+      font-size: 17px;
+      margin-left: 10px;
+    }
+  }
+}
+
+.buttonStyle {
+  background: #fff;
+  padding: 1%;
+  width: 50%;
+  //border: 1px solid $color-primary;
+  margin: 3% auto;
+  display: block;
+}
+
+.mainContent {
+  padding-top: 25%;
+  @media screen and (min-width: $desktop) {
+    padding-top: 10%;
+  }
+  @media screen and (min-width: $tablet) and (max-width: $desktop){
+    padding-top: 20%;
+  }
+}

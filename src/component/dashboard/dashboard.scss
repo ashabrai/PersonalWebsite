@@ -1,0 +1,24 @@
+@import '../../../styles/variables';
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+.introBox{
+    height: 300px;
+    width: 100%;
+    background-color: $color5;
+    color: $color2;
+    letter-spacing: 14px;
+    font-size: 100px;
+    font-family: Staatliches, cursive;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    margin-top:10px;
+    }
+@media screen and (max-width: $mobile){
+    .introBox{
+        height:100px;
+        width: 100%;
+        font-size:30px;
+        letter-spacing: 10px;
+    }
+}

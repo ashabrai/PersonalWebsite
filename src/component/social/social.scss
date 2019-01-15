@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Fondamento|Mirza|Staatliches|Titillium+Web|Yatra+One');
+@import '../../../styles/variables';
+
+h2 {
+    font-family:Yatra One;
+    text-align: center;
+}
+.container {
+    flex-flow: row;
+    position: relative;
+    //min-height: 100%;
+  
+  
+  }
+  .paintings{
+    margin-top:30px;
+    margin-left: auto;
+    margin-right: auto;
+    width:87%;
+  
+    img {
+      //box-shadow: 10px 10px 5px lightgray;
+      display: inline-block;
+      width: 325px;
+      height: 500px;
+      margin-right: 5px;
+      margin-left: 5px;
+      margin-top: 10px;
+    }
+  
+  }
