@@ -1,0 +1,91 @@
+@import '../../../styles/variables';
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+
+.containerThree {
+    display: inline-block;
+    position: relative;
+    flex-flow:row;
+    margin-top: 100px;
+    width: 100%;
+
+    .accomplish-Div {
+     height:300px;
+     width: 300px;
+     background-color: $color5;
+    float:left;
+    margin:0 auto;
+    margin-left:34px;
+     
+     
+    p{
+     font-family: Staatliches, Times;
+     font-size: 20px;
+    letter-spacing: 10px;
+     color:white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 40%;
+     }
+    
+}
+img {
+    height: 300px;
+    width: 350px;
+    margin-bottom: 5px;
+    float: left;
+    margin:0 auto;
+    
+}
+.div-next-photo {
+    font-family: Staatliches, Times;
+    width: 550px;
+    background-color: white;
+    height: 300px;
+    float: left;
+    margin:0 auto;
+
+    p{
+    text-align:center;
+    color: $color2;
+    letter-spacing: 3px;
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    } 
+}
+    @media screen and (max-width: $mobile) and (max-width: $tablet) {
+        .containerThree {
+            margin-top: 10px;
+        
+        .accomplish-Div{
+            height: 100px;
+            width: 100%;
+            float: none;
+            margin: 0 auto;
+
+            p{
+                font-size: 25px;
+                padding:9%;
+            }
+        }
+
+        .div-next-photo {
+            display:inline-block;
+            height: 200px;
+            width: 100%;
+            float: none;
+            margin: 0 auto;
+            background-color: white;
+            border-bottom: 2px;
+            border-bottom-color: gray;
+            border-bottom-style: dotted;
+        }
+    }  
+   .high{
+       display: none;
+   }
+}
