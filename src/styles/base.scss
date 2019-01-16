@@ -89,26 +89,12 @@ html {
 }
 
 header{
-  font-size: 35px;
+  font-size: 40px;
   color: $color4;
   font-family: Staatliches, Times;
   letter-spacing: 5px;
 }
-@media screen and (max-width: $mobile){
-  header{
-    font-size: 30px;
-    width: 90px;
-  }
 
-}
-.navStyle ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  a{
-    text-decoration:none !important;
-  }
-}
 
 .navStyle {
   display: flex;
@@ -116,7 +102,11 @@ header{
   background: none;
   position: relative;
   width: 100%;
-  //box-shadow: 1px 1px #0000003b;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   li {
     font-family: Titillium Web;
     margin-left:50px;
@@ -125,31 +115,39 @@ header{
     font-size: 20px;
     list-style:none;
   }
+  a{
+    text-decoration:none !important;
+  }
 }
-  @media screen and (max-width: $mobile){
+  @media screen and (max-width: $mobile) and (max-width: $ipad){
+    header{
+      font-size: 25px;
+      width: 80px;
+    } 
     .navStyle{
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
     li{
-      font-size: 17px;
-      margin-left: 10px;
+      font-size: 15px;
+      margin-left: 6px;
+      // background-color: blue;
     }
   }
 }
-
-.buttonStyle {
-  background: #fff;
-  padding: 1%;
-  width: 50%;
-  //border: 1px solid $color-primary;
-  margin: 3% auto;
-  display: block;
-}
-
-.mainContent {
-  padding-top: 25%;
-  @media screen and (min-width: $desktop) {
-    padding-top: 10%;
-  }
-  @media screen and (min-width: $tablet) and (max-width: $desktop){
-    padding-top: 20%;
+@media screen and (max-width: $mobile-sm){
+  header{
+    font-size: 25px;
+    width: 80px;
+  } 
+  .navStyle{
+      
+  li{
+    font-size: 16px;
+    margin-left: 6px;
+    }
   }
 }

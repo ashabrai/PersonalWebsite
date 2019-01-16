@@ -14,11 +14,24 @@
      align-items: center;
     margin-top:10px;
     }
-@media screen and (max-width: $mobile){
+@media screen and (max-width: $mobile) and (min-width: $mobile-sm){
     .introBox{
         height:100px;
         width: 100%;
-        font-size:30px;
+        font-size:25px;
+        padding-bottom:4px;
         letter-spacing: 10px;
+        text-align: center;
     }
 }
+// @media screen and (min-width: $tablet){
+//     .introBox{
+//         height:150px;
+//         width: 100%;
+//         font-size:70px;
+//         padding-bottom:4px;
+//         letter-spacing: 10px;
+//         text-align: center;
+
+//     }
+// }
