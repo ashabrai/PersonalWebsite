@@ -52,7 +52,7 @@
     }
   }
 }
-@media screen and (max-width: $mobile){
+@media screen and (max-width: $mobile) and (min-width: $mobile-sm){
   .bioResponse{
     
     h2{
