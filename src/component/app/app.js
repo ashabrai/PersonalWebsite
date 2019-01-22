@@ -15,7 +15,7 @@ class App extends React.Component {
                 <BrowserRouter>
                     <React.Fragment>
                         <nav className='navStyle'>
-                            <header> <Link to='dashboard'>BRAI FRAUEN</Link>
+                            <header> <Link to='/'>BRAI FRAUEN</Link>
                             </header>
                             <ul>
                                 <li><Link to='/contact'>Contact</Link></li>
@@ -26,12 +26,11 @@ class App extends React.Component {
                             </ul>
                         </nav>
                         <div>
-                            <Route exact path='/dashboard' component={Dashboard}/>
+                            <Route exact path='/' component={Dashboard}/>
                             <Route exact path='/projects' component={Projects}/>
                             <Route exact path='/social' component={Social}/>
                             <Route exact path='/contact' component={Contact}/>
                         </div>
-                        <Dashboard/>
                         <footer>
                             <p>copyright &copy; Brai Frauen</p>
                         </footer>
