@@ -31,7 +31,7 @@ class App extends React.Component {
                             <Route exact path='/social' component={Social}/>
                             <Route exact path='/contact' component={Contact}/>
                         </div>
-
+                        <Dashboard/>
                         <footer>
                             <p>copyright &copy; Brai Frauen</p>
                         </footer>
