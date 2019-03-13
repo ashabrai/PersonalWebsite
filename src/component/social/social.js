@@ -16,12 +16,12 @@ class Social extends React.Component {
                 <div><h2>When I'm not coding...</h2></div>
 
                 <div className='paintings'>
-                    <img src={paintingOne}/>
-                    <img src={paintingTwo}/>
-                    <img src={paintingThree}/>
-                    <img src={paintingFour}/>
-                    <img src={paintingFive}/>
-                    <img src={paintingSix}/>            
+                    <img src={paintingOne} alt="one"/>
+                    <img src={paintingTwo}alt="two"/>
+                    <img src={paintingThree} alt="three"/>
+                    <img src={paintingFour}alt="four"/>
+                    <img src={paintingFive}alt="five"/>
+                    <img src={paintingSix}alt="six"/>            
             </div>
 
                 </div>
