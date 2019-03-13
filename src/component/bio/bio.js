@@ -11,8 +11,8 @@ class Bio extends React.Component {
     render(){
         return (
             <div className='containerOne'>
-                <img src={Selfie} className='selfieOfMyself'/>
-                <img src={Poliroid} className='polly'/>
+                <img src={Selfie} alt='selfie' className='selfieOfMyself'/>
+                <img src={Poliroid} alt='polor' className='polly'/>
 
                 <div className='bioResponse'>
                 <h2>Elevator Pitch</h2>
