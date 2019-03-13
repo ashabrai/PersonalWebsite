@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/BR-painting.e6ad7e6c.jpg"
   },
   {
-    "revision": "f3907721de03cf5e44da",
+    "revision": "45ed2c94612eda678756",
     "url": "/static/css/main.43dc7a1a.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/static/media/clap-hands.07aea7ce.jpg"
   },
   {
-    "revision": "f3907721de03cf5e44da",
-    "url": "/static/js/main.f3907721.chunk.js"
+    "revision": "45ed2c94612eda678756",
+    "url": "/static/js/main.45ed2c94.chunk.js"
   },
   {
     "revision": "b12ca3315089761f0e541a77d093b7ed",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/media/tallPhoto.c36a7719.jpg"
   },
   {
-    "revision": "9dfedccd9beca0c00ab32fac80b32a49",
+    "revision": "acfceb4b7839c204b367e59f49644dd1",
     "url": "/index.html"
   }
 ];
