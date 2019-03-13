@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ashabrai/myPortfolio/precache-manifest.202f960703c8e9434dcddc6a729d26ac.js"
+  "/ashabrai/precache-manifest.afea274acd1f48040b0deed47b9a5d99.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ashabrai/myPortfolio/index.html", {
+workbox.routing.registerNavigationRoute("/ashabrai/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
