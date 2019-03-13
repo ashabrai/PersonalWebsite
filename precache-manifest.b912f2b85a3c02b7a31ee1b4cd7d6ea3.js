@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/ashabrai/static/media/tallPhoto.c36a7719.jpg"
   },
   {
-    "revision": "8c0e265aeeadd4bd57ff6dc475aae2eb",
+    "revision": "08d08abf31537eb890efbcd27c83eca3",
     "url": "/ashabrai/index.html"
   }
 ];
