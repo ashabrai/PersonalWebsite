@@ -10,7 +10,7 @@ class Accomplishment extends React.Component {
           <section className='containerThree'>
               <div className='accomplish-Div'><p>Accomplishments</p></div>
               <div className='div-next-photo'><p>Certificate of Achievement for Full-Stack Javascript </p></div>
-              <img src={highFive} className='high'/>
+              <img src={highFive} alt="highfive" className='high'/>
 
           </section>
 
