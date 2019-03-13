@@ -21,7 +21,8 @@ class Social extends React.Component {
                     <img src={paintingThree} alt="three"/>
                     <img src={paintingFour}alt="four"/>
                     <img src={paintingFive}alt="five"/>
-                    <img src={paintingSix}alt="six"/>            
+                    <img src={paintingSix}alt="six"/>      
+                    {/* <p>this is a test</p>       */}
             </div>
 
                 </div>
