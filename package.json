@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://ashabrai.github.io/ashabrai",
   "dependencies": {
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.14.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-router-dom": "^4.3.1",
@@ -15,9 +15,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "npm run build&&gh-pages -d build"
-
+    "predeploy": "npm run build",
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
