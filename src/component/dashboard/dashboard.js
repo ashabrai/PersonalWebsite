@@ -3,8 +3,7 @@ import Bio from '../bio/bio';
 
 
 import './dashboard.scss';
-import Accomplishment from "../accomplishment/accomplishment";
-import Projects from "../projects/projects";
+// import Projects from "../projects/projects";
 import Contact from "../contact/contact";
 
 class Dashboard extends React.Component {
@@ -15,12 +14,9 @@ class Dashboard extends React.Component {
                 <p>MY NAME IS BRAI</p>
             </div>
                 <Bio/>
-                <Accomplishment/>
-                <Projects/>
+                {/* <Projects/> */}
                 <Contact/>
             </div>
-
-
         );
     }
 }
