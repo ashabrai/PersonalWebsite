@@ -3,25 +3,6 @@ import React from 'react';
 import './contact.scss';
 
 class Contact extends React.Component {
-//     constructor(props){
-//         super(props);
-//         this.handleMouseHover = this.handleMouseHover.bind(this);
-//         this.state = {
-//             isHover:false
-//         };
-//     }
-//         handleMouseHover = () => {
-//            this.setState(this.toggleHoverState);
-//         };
-
-//         toggleHoverState = (state)=>  {
-//             return{
-//                 isHovering: !state.isHovering,
-//             };
-//         };
-
-// onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover}>
-//{this.state.isHovering &&<div><p>ashabraimfrauen@gmail.com</p></div>}
 
         render() {
 

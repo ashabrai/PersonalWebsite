@@ -6,12 +6,21 @@
     position: relative;
     margin-top: 10px;
     height:35em;
+    display: flex;
+    justify-content: center;
+    width:100%;
+    flex-wrap: wrap;
+
+    .photos-container{
+      // margin: 0 auto;
+      width:50%;
+    }
     
     .selfieOfMyself {
     float: left;
     width:300px;
     height:400px;
-    margin-left: 10%;
+    margin-left: 47%;
     margin-top:50px;
     margin-bottom: 20px;
     padding-right: 8px;
@@ -24,12 +33,13 @@
       height: 250px;
       height: 300px;
       top: 240px;
-      left:10px;
+      left:161px;
     }
 }
 
 .bioResponse {
   overflow: auto;
+  width:50%;
   h2 {
     font-size: 30px;
     font-family: Staatliches, Times;
@@ -40,7 +50,7 @@
   }
   .containerPar {
     height: 300px;
-    width: 700px;
+    width: 85%;
     border-left-color: gray;
     margin-left:10px;
     border-width: 3px;
@@ -53,26 +63,71 @@
     }
   }
 }
+
+@media screen and (max-width: $ipad) and (min-width: $ipad-sm){
+  .containerOne{
+      width:100%;
+    .photos-container {
+      width: 100%;
+      display:contents;
+    }
+    .selfieOfMyself {
+      float:none;
+      margin: 0 auto;
+    }
+  }
+
+.bioResponse {
+  display: block;
+  width:100%;
+  margin-top:125px;
+  padding-top:10px;
+}
+
+.containerPar{
+  position: relative;
+  p{ 
+    border:none;
+  }
+}
+
+.containerFive {
+  margin-top:400px;
+}
+  }
+
 @media screen and (max-width: $mobile) and (min-width: $mobile-sm){
+
+.containerOne{
+  width: ($mobile - 20) or ($mobile-sm -20);
+
+  .selfieOfMyself{
+    float:none;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .polly{
+    display:none;
+    }
+  }
+
   .bioResponse{
-    
     h2{
       position:relative;
-      margin-top: 80px;
+      // margin-top: 80px;
+      justify-content: center;
+      // margin: auto 0;
    
     }
   .containerPar{
     display: block;
     border-style: none;
-    width:auto;
-    height: 300px;
-    
+
+    p{
+      width:100%;
+    }
   } 
 }
-.containerOne{
-  .selfieOfMyself{
-    float:none;
-  }
-  }
 }
 

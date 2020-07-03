@@ -11,9 +11,10 @@ class Bio extends React.Component {
     render(){
         return (
             <div className='containerOne'>
+                <div className='photos-container'>
                 <img src={Selfie} alt='selfie' className='selfieOfMyself'/>
                 <img src={Poliroid} alt='polor' className='polly'/>
-
+            </div>
                 <div className='bioResponse'>
                 <h2>Elevator Pitch</h2>
                 <div className='containerPar'>
