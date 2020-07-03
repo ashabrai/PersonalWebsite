@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "e6ad7e6c365c63cf655bac4ad30b6bf4",
-    "url": "/ashabrai/static/media/BR-painting.e6ad7e6c.jpg"
+    "revision": "f34b931f04b7b133c461",
+    "url": "/ashabrai/static/css/main.9be43f1b.chunk.css"
   },
   {
-    "revision": "180f88c7ba3c629ccba2",
-    "url": "/ashabrai/static/css/main.dd08eb30.chunk.css"
+    "revision": "f34b931f04b7b133c461",
+    "url": "/ashabrai/static/js/main.f34b931f.chunk.js"
   },
   {
-    "revision": "0f8a16ae09ab84fbc4dc",
-    "url": "/ashabrai/static/js/1.0f8a16ae.chunk.js"
+    "revision": "31f1bbed8af78a2e0c16",
+    "url": "/ashabrai/static/js/1.31f1bbed.chunk.js"
   },
   {
     "revision": "d49686e9a87ab9a9e09c",
@@ -24,12 +24,8 @@ self.__precacheManifest = [
     "url": "/ashabrai/static/media/poloroid.9fbbd992.jpg"
   },
   {
-    "revision": "07aea7ce55e2323277361b97a943b8d2",
-    "url": "/ashabrai/static/media/clap-hands.07aea7ce.jpg"
-  },
-  {
-    "revision": "180f88c7ba3c629ccba2",
-    "url": "/ashabrai/static/js/main.180f88c7.chunk.js"
+    "revision": "e6ad7e6c365c63cf655bac4ad30b6bf4",
+    "url": "/ashabrai/static/media/BR-painting.e6ad7e6c.jpg"
   },
   {
     "revision": "b12ca3315089761f0e541a77d093b7ed",
@@ -56,7 +52,7 @@ self.__precacheManifest = [
     "url": "/ashabrai/static/media/tallPhoto.c36a7719.jpg"
   },
   {
-    "revision": "08d08abf31537eb890efbcd27c83eca3",
+    "revision": "0e82f7ea271fc78393c5a571e307cbd1",
     "url": "/ashabrai/index.html"
   }
 ];
