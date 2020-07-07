@@ -15,7 +15,7 @@ See package.json to confirm dependency details.
 
 ## Current Version 
 
-2.0
+3.0
 
 ## License 
 
