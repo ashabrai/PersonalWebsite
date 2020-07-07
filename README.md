@@ -2,7 +2,7 @@
 
 ## Information
 
-Personal site for business use. 
+Personal site for business use.   
 Showing projects that I've done individually and with a team. 
 Website built with 'Create-React-App'
 
