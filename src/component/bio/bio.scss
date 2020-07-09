@@ -12,7 +12,6 @@
     flex-wrap: wrap;
 
     .photos-container{
-      // margin: 0 auto;
       width:50%;
     }
     
@@ -64,70 +63,55 @@
   }
 }
 
-@media screen and (max-width: $ipad) and (min-width: $ipad-sm){
-  .containerOne{
-      width:100%;
-    .photos-container {
-      width: 100%;
-      display:contents;
-    }
-    .selfieOfMyself {
-      float:none;
-      margin: 0 auto;
-    }
-  }
-
-.bioResponse {
-  display: block;
-  width:100%;
-  margin-top:125px;
-  padding-top:10px;
-}
-
-.containerPar{
-  position: relative;
-  p{ 
-    border:none;
-  }
-}
-
-.containerFive {
-  margin-top:400px;
-}
-  }
-
-@media screen and (max-width: $mobile) and (min-width: $mobile-sm){
-
-.containerOne{
-  width: ($mobile - 20) or ($mobile-sm -20);
-
-  .selfieOfMyself{
-    float:none;
+@media (max-width: $ipad) and (min-width: $mobile-sm){
+  .containerOne {
+    display: flex;
     margin: 0 auto;
-    justify-content: center;
-  }
+    margin-top: 26px;
 
-  .polly{
-    display:none;
+    .photos-container{
+      width: 100%;
+      height: auto;
+
+      .polly{
+        display: none;
+        float:none;
+      }
+
+      .selfieOfMyself{
+        display:block;
+        float:none;
+        margin-left:auto;
+        margin-right: auto;
+
+      }
     }
   }
-
   .bioResponse{
-    h2{
-      position:relative;
-      // margin-top: 80px;
-      justify-content: center;
-      // margin: auto 0;
-   
+    width:100%;
+    margin: 0 auto;
+    h2 {
+      width: 100%;
     }
-  .containerPar{
-    display: block;
-    border-style: none;
+    .containerPar {
+      position:block;
+      margin: 0 auto;
+      overflow: none;
+      height: auto;
+    
+        }
+      
+  }
+  .containerFive {
+    margin-top: 10px;
+    .scrollImage {
+      width: 100%;
+      margin-top:22em;
+      height: 300px;
+      background-attachment: fixed;
+    }
+  }
+  
+}
 
-    p{
-      width:100%;
-    }
-  } 
-}
-}
 

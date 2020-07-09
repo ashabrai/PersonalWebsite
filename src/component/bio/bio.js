@@ -18,9 +18,7 @@ class Bio extends React.Component {
                 <div className='bioResponse'>
                 <h2>Elevator Pitch</h2>
                 <div className='containerPar'>
-                <p>Hello, I'm a UI Developer, Technologist Enthusiast, and Customer Service Wizard. Prior work experience I was in finance. I changed careers because I felt that my efforts were not truly making a difference in my community.
-                   I love art and technology. The world is in constant change, and the job market in the tech industry is booming! 
-                   I took it upon myself to become a developer. Coding has become a huge passion of mine. And though I still have a lot to learn, I am always open to new ideas and would love to work on new projects. </p>
+                <p>I'm a freelance Software Engineer currently based out of Seattle. I am a coding bootcamp grad who got their certificate in Full-Stack Javascript. I mainly focus on helping build awesome UI's. Before I made my transition to this industry, I was previously working in finance. Even though it was a stable career and a way for me to stay connected with my community, I wanted to take on a new challenge in a very tough industry.  I love working on new projects and weaving through a new codebase. It allows more opportunities for me to better my skill set as an engineer and connect with other developers. When I'm not coding in my free time, I enjoy making art and spending quality time with my English Bulldog named Ingrid.</p>
                 </div>
                 </div>
             </div>
