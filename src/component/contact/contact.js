@@ -15,7 +15,7 @@ class Contact extends React.Component {
                             <p>Want to hire me? Cool!</p>
                         </div>
 
-                        <div className='whereToFind'><p className='find'>FIND ME</p>
+                        <div className='whereToFind'><p className='find'>FIND ME HERE: </p>
 
                             <div className='email'><a href="mailto:ashabraimfrauen@gmail.com">Email</a>
                             </div>

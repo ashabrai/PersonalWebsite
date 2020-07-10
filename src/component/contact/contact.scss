@@ -13,73 +13,59 @@
 }
 
 .contact-InfoDiv {
-    width:100%;
     height:50px;
-    // background-color : $color2;
     color:$color5;
     font-size: 40px;
     font-family:Staatliches, Times;
     letter-spacing: 5px;
     text-align: center;
+    padding: 2%;
 
 }
 
 .whereToFind {
     width:100%;
+    text-align: center;
    .find{
         font-size: 40px;
         font-family:Yatra One;
         text-align:center;
         letter-spacing: 5px;
-        color: $color1;
+        color: $sinopia;
    }
 
     .email {
-        display: relative;
-        width: 100%;
         height:60px;
-        float:left;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         font-size: 25px;
         letter-spacing: 4px;
         font-family: Yatra One;
         color: $color3;
         font-size: 40px;
-        // background-color:blue;
-        margin-top: 2px;
+        text-align: center;
 
     }
     .linkedIn {
         height:60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         font-size:25px;
         color: $color3;
         letter-spacing: 3px;
         width: 100%;
         font-size: 40px;
-
-        // background-color: purple;
         font-family:Yatra One;
+        text-align: center;
+
     }
     .github{
         height:60px;
         padding-bottom: 70px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         font-size:25px;
         color: $color3;
         letter-spacing: 3px;
         width: 100%;
         font-size: 40px;
-
-
-        // background-color:green;
         font-family:Yatra One;
+        text-align: center;
+
     }
 }
 @media screen and (max-width: $mobile) and (min-width: $mobile-sm)

@@ -2,17 +2,18 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches');
 
 .introBox{
-    height: 300px;
-    width: 100%;
-    background-color: $color5;
-    color: $color2;
-    letter-spacing: 14px;
-    font-size: 100px;
+    height: 200px;
+    background-color: $dark-olive-green;
     font-family: Staatliches, cursive;
-    display: flex;
-     justify-content: center;
-     align-items: center;
-    margin-top:10px;
+    text-align: center;
+
+     p {
+        margin: 0 auto;
+        font-size: 100px;
+        letter-spacing: 14px;
+        color: $cornsilk;
+        padding-top: 2.5%;
+     }
     }
 @media screen and (max-width: $mobile) and (min-width: $mobile-sm){
     .introBox{
@@ -24,14 +25,3 @@
         text-align: center;
     }
 }
-// @media screen and (min-width: $tablet){
-//     .introBox{
-//         height:150px;
-//         width: 100%;
-//         font-size:70px;
-//         padding-bottom:4px;
-//         letter-spacing: 10px;
-//         text-align: center;
-
-//     }
-// }
