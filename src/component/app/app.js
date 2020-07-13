@@ -5,7 +5,7 @@ import Dashboard from '../dashboard/dashboard';
 import Contact from '../contact/contact';
 import Projects from '../projects/projects';
 import Social from '../social/social';
-
+import Resume from '../resume/resume'
 import '../../styles/base.scss';
 
 class App extends React.Component {
@@ -21,7 +21,7 @@ class App extends React.Component {
                                 <li><Link to='/contact'>Contact</Link></li>
                                 <li><Link to='/social'>Personal</Link></li>
                                 <li><Link to='/projects'>Projects</Link></li>
-
+                                <li><Link to='/resume'>Resume</Link></li>
 
                             </ul>
                         </nav>
@@ -30,6 +30,7 @@ class App extends React.Component {
                             <Route exact path='/projects' component={Projects}/>
                             <Route exact path='/social' component={Social}/>
                             <Route exact path='/contact' component={Contact}/>
+                            <Route exact path='/resume' component={Resume}/>
                         </div>
                         <footer>
                             <p>copyright &copy; Brai Frauen</p>

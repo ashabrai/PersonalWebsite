@@ -1,6 +1,6 @@
 import React from 'react';
 import Bio from '../bio/bio';
-
+// import Companies from '../companies/companies'
 
 import './dashboard.scss';
 // import Projects from "../projects/projects";
@@ -15,7 +15,9 @@ class Dashboard extends React.Component {
             </div>
                 <Bio/>
                 {/* <Projects/> */}
+                {/* <Companies/> */}
                 <Contact/>
+                
             </div>
         );
     }

@@ -1,0 +1,30 @@
+@import '../../styles/variables';
+
+.companies {
+    padding-top: 5%;
+    height: 400px;
+    width: 100%;
+    background-color: $cornsilk;
+    position: absolute;
+    float: left;
+    // text-align: center;
+
+}
+
+.figureDrawing{
+    width: 600px;
+    // height: 400px;
+    // float:left;
+}
+.companiesIveWorkedAt {
+    margin: 0 auto;
+
+}
+.recentCompanies {
+    position: absolute;
+    // top: px;
+    left: 200px;
+    color: $cornsilk;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
