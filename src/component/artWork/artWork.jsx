@@ -1,5 +1,5 @@
 import React from 'react';
-import './social.scss';
+import './artWork.scss';
 
 import paintingOne from '../../images/BR-painting.jpg';
 import paintingTwo from '../../images/closeup.jpg';
@@ -9,12 +9,10 @@ import paintingFive from '../../images/painting.jpg';
 import paintingSix from '../../images/wall-pink-painting.jpg';
 
 
-class Social extends React.Component {
+class ArtWork extends React.Component {
     render() {
         return(
             <div className='container-box'>
-                <div><h2>When I'm not coding...</h2></div>
-
                 <div className='paintings'>
                     <img src={paintingOne} alt="one"/>
                     <img src={paintingTwo}alt="two"/>
@@ -22,13 +20,12 @@ class Social extends React.Component {
                     <img src={paintingFour}alt="four"/>
                     <img src={paintingFive}alt="five"/>
                     <img src={paintingSix}alt="six"/>      
-                    {/* <p>this is a test</p>       */}
-            </div>
-
+            
+                </div>
                 </div>
             )
         }
 }
 
-export default Social;
+export default ArtWork;
 

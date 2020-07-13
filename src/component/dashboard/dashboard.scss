@@ -15,13 +15,15 @@
         padding-top: 2.5%;
      }
     }
-@media screen and (max-width: $mobile) and (min-width: $mobile-sm){
+    @media (min-width: $mobile-sm) and (max-width: $mobile){
     .introBox{
         height:100px;
         width: 100%;
-        font-size:25px;
-        padding-bottom:4px;
         letter-spacing: 10px;
         text-align: center;
+        padding-top: 31px;
+        p {
+            font-size:24px;
+        }
     }
 }

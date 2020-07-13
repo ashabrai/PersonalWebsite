@@ -59,9 +59,6 @@ p {
   margin-bottom: 2%;
 }
 
-// h1, h2, h3, h4 {
-//   //margin-bottom: 3%;
-// }
 
 h1 {
   font-size: 3em;
@@ -112,7 +109,7 @@ header{
     margin-left:50px;
 
     vertical-align: middle;
-    font-size: 20px;
+    font-size: 15px;
     list-style:none;
   }
   a{
@@ -125,29 +122,33 @@ header{
       width: 80px;
     } 
     .navStyle{
+      margin-bottom: 15px;
       ul {
         display: flex;
-        align-items: center;
-        justify-content: center;
+      
       }
     
     li{
-      font-size: 15px;
+      font-size: .7em;
       margin-left: 6px;
-      // background-color: blue;
     }
   }
 }
-@media screen and (max-width: $mobile-sm){
+
+@media (min-width: 375px) and (max-width: $mobile){
   header{
     font-size: 25px;
     width: 80px;
   } 
   .navStyle{
-      
-  li{
-    font-size: 16px;
-    margin-left: 6px;
+    ul {
+      display: flex;
+    
     }
+  
+  li{
+    font-size: 15px;
+    margin-left: 6px;
   }
+}
 }

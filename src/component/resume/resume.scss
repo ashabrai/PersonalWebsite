@@ -1,5 +1,23 @@
+@import '../../styles/variables';
+@import url('https://fonts.googleapis.com/css?family=Fondamento|Mirza|Staatliches|Titillium+Web|Yatra+One');
+
 .resume {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: $ipad) and (min-width: $mobile-sm){
+    .wrapper{
+        text-align: center;
+    }
+    .resume {
+        display:none;
+    }
+    .message {
+         display: inline-block;
+         font-family: Titillium Web;
+
+        }
+    
 }
