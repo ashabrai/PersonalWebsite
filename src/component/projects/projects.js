@@ -12,17 +12,17 @@ class Projects extends React.Component {
                 </div>
 
                 <div className='projectDiv'>
-                    <div><h3>FLOWER SHOP</h3>
-                    <p>A sample site I built for a local florist. Site is only used for wireframing practice. Still being built.</p>
-                    <a href='https://github.com/ashabrai/flowerShop'>Click for Github account</a>
+                    <div><h3>Change Healthcare/Trading Partner</h3>
+                    <p>Developed a public-facing application allowing end-users to search for Healthcare providers/payers.</p>
+                    <a href='https://payerlist.changehealthcare.com/'>Click to view site</a>
                     </div>
-                    <div><h3>DOC TALK</h3>
-                    <p>A complete app, both frontend and backend logic built with a team. I contributed mostly in the front-end. Building components and login/signup functionality as well as styling.</p>
-                    <a href='http://doc-talk-fe.s3-website-us-west-2.amazonaws.com/'>Click for site</a>
+                    <div><h3>Website</h3>
+                    <p>A ongoing project, constantly updating with new work and information that I've done. Currently you are viewing the site.</p>
+                    <a href='https://github.com/ashabrai/PersonalWebsite'>Click to view Github Repo</a>
                     </div>
                     <div><h3>MOOD FELLOWS</h3>
                     <p>A complete app built with a team, has functional front-end and back-end logic. A blog forum that allows you to post anonomously. App judges the context of the text.</p>
-                    <a href='http://www.moodfellows.org/'> Click for site</a>
+                    <a href='http://www.moodfellows.org/'>Click to view site</a>
                     </div>
                 </div>
 
