@@ -10,7 +10,7 @@ export default class resume extends Component {
                 <Iframe url="https://docs.google.com/document/d/e/2PACX-1vTe4d5QCXzAnXhwKFuk7Vzn4K0Hc45XF8fa_BDQM1WUenXAEHeI5eb1VINJ-Jhj8OzzPURI-RQ5O6_I/pub?embedded=true"
                     width="60%"
                     height="900px"
-                    className="resume-doc"
+                    className="resume"
                     display="initial"
                     />
             </div>                     
