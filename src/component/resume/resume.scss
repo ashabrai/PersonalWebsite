@@ -6,6 +6,9 @@
     align-items: center;
     justify-content: center;
 }
+.message{
+    display: none;
+}
 
 @media (max-width: $ipad) and (min-width: $mobile-sm){
     .wrapper{
