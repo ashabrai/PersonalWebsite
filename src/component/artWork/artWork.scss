@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Fondamento|Mirza|Staatliches|Titillium+Web|Yatra+One');
-@import '../../styles/variables';
-
+@import url("https://fonts.googleapis.com/css?family=Fondamento|Mirza|Staatliches|Titillium+Web|Yatra+One");
+@import "../../styles/variables";
 
 .container-box {
-  display:flex;
+  display: flex;
   justify-content: center;
-  }
-  .paintings{
-    margin: auto;
-    width: 87%; 
+  align-items: center;
+}
+.paintings {
+  align-items: center;
+  width: 87%;
+  margin-left: 15%;
 
-    img {
-      width: 325px;
-      height: 500px;
-      margin-right: 5px;
-      margin-left: 5px;
-      margin-top: 10px;
-    }
-  
+  img {
+    width: 325px;
+    height: 500px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
   }
+}

@@ -9,22 +9,19 @@ import paintingFive from '../../images/painting.jpg';
 import paintingSix from '../../images/wall-pink-painting.jpg';
 
 
-class ArtWork extends React.Component {
-    render() {
-        return(
-            <div className='container-box'>
-                <div className='paintings'>
-                    <img src={paintingOne} alt="one"/>
-                    <img src={paintingTwo}alt="two"/>
-                    <img src={paintingThree} alt="three"/>
-                    <img src={paintingFour}alt="four"/>
-                    <img src={paintingFive}alt="five"/>
-                    <img src={paintingSix}alt="six"/>      
-            
-                </div>
-                </div>
-            )
-        }
+const ArtWork = () => {
+    return(
+        <div className='container-box'>
+            <div className='paintings'>
+                <img src={paintingOne} alt="one"/>
+                <img src={paintingTwo}alt="two"/>
+                <img src={paintingThree} alt="three"/>
+                <img src={paintingFour}alt="four"/>
+                <img src={paintingFive}alt="five"/>
+                <img src={paintingSix}alt="six"/>      
+            </div>
+        </div>
+    )
 }
 
 export default ArtWork;
