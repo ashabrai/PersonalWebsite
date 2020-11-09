@@ -3,7 +3,7 @@ import './contact.scss';
 
 const Contact = () => {
     return (
-        <section className='containerFive'>
+        <div className='containerFive'>
             <div className='scrollImage' />
                 <div className='contact-InfoDiv'>
                     <p>Want to hire me? Cool!</p>
@@ -20,7 +20,7 @@ const Contact = () => {
                         <a href ='https://github.com/ashabrai'>Github</a>
                     </div>
                 </div>
-        </section>
+        </div>
     )
 }
 

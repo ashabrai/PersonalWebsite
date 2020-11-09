@@ -3,12 +3,13 @@ import './projects.scss';
 
 const Projects = () => { 
         return(
-            <section className='containerFour'>
+            <div className='containerFour'>
                 <div className='projectTitle-div'>
                     <p> Projects</p>
                 </div>
                 <div className='projectDiv'>
-                    <div><h3>COVID-19</h3>
+                    <div>
+                        <h3>COVID-19</h3>
                         <p>A data app, that allows a user to see COVID-19 data results on ether a state or country.</p>
                         <a href='http://cov19-reactapp.herokuapp.com/'>Click to view site</a>
                     </div>
@@ -23,7 +24,7 @@ const Projects = () => {
                         <a href='https://github.com/ashabrai/PersonalWebsite'>Click to view Github Repo</a>
                     </div>
                 </div>
-            </section>
+            </div>
         )
     }
 
